@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">safeChat</string>
+    <string name="sendButton">Send</string>
+    <string name="enter_message_here">Enter Message Here</string>
+    <string name="encrypt_text">Encrypt</string>
+    <string name="decrypt_text">Decrypt</string>
+</resources>

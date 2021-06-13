@@ -21,13 +21,9 @@ public class messageViewCreat extends ArrayAdapter<messageStruct> {
         }
         TextView messageTextView = (TextView) convertView.findViewById(R.id.messageTextView);
         TextView authorTextView = (TextView) convertView.findViewById(R.id.nameTextView);
-
         messageStruct message = getItem(position);
-
-
-            messageTextView.setVisibility(View.VISIBLE);
-            messageTextView.setText(message.getText());
-
+        messageTextView.setVisibility(View.VISIBLE);
+        messageTextView.setText(message.getText());
         authorTextView.setText(message.getName());
 
         return convertView;
